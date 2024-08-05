@@ -31,7 +31,7 @@ render() {
     "$dragon_title" 2 "run -b '#{@kanagawa-root}/scripts/actions.sh set_state_and_tmux_option theme dragon" \
     "$lotus_title" 3 "run -b '#{@kanagawa-root}/scripts/actions.sh set_state_and_tmux_option theme lotus" \
     "" \
-    "<-- Back" b "run -b 'source #{@kanagawa-root}/menu_items/main.sh" \
+    "<-- Back" b "run -b '#{@kanagawa-root}/menu_items/main.sh" \
     "Close menu" q ""
 }
 
